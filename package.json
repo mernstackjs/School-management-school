@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mernstackjs/School-management-school/issues"
   },
-  "homepage": "https://github.com/mernstackjs/School-management-school#readme"
+  "homepage": "https://github.com/mernstackjs/School-management-school#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
