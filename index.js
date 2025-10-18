@@ -9,6 +9,13 @@ app.get("/health", (_req, res) => {
   });
 });
 
+app.get("/", (_req, res) => {
+  res.status(200).json({
+    message: "Server is running on port",
+    PORT,
+  });
+});
+
 const PORT = 4040;
 
 app.listen(PORT, () => console.log(`server is running on port ${PORT}`));
