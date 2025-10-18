@@ -11,7 +11,7 @@ app.get("/health", (_req, res) => {
 
 app.get("/", (_req, res) => {
   res.status(200).json({
-    message: `Server is running on port test : ${PORT}`,
+    message: `Server is running on port : ${PORT}`,
   });
 });
 
